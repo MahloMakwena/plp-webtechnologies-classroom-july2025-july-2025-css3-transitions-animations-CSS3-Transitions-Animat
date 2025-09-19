@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS3 Transitions and Animations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="fade-in">Welcome to My Animated Page</h1>
+
+
+    <div class="rotating-icon" id="rotating-icon">🔄</div>
+    <button id="pause" class="pause">Pause</button>
+    <button id="resume" class="resume">Resume</button>
+    <div class="slide-in-box" id="slide-in-box">I slid in!</div>
+  </div>
+
+  <div class="card-container">
+    <div class="card" id="flip-card">
+        <div class="card-front">
+          Front Side
+        </div>
+        <div class="card-back">
+          Back Side
+        </div>
+    </div>
+</div>
+<button id="openModal">Open Modal</button>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+    <p>Modal Content Here!</p>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
